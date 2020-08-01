@@ -5,4 +5,4 @@ const creatorAddress = '0xdeadbeef00000000000000000000000000000000'
 const salt = '0x0000000000000000000000000000000000000000000000000000000000000000'
 const initCode = '0x00'
 
-const address = create2(creatorAddress, salt, initCode)
+console.log(create2(creatorAddress, salt, initCode))
