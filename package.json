@@ -1,0 +1,33 @@
+{
+  "name": "eth-create2",
+  "version": "0.0.0",
+  "description": "Generate Ethereum CREATE2 addresses",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eth-helpers": "^1.1.0",
+    "nanoassert": "^2.0.0",
+    "sha3-wasm": "0.0.7"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4",
+    "tape": "^5.0.1"
+  },
+  "scripts": {
+    "pretest": "standard",
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilbayes/eth-create2.git"
+  },
+  "keywords": [],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilbayes/eth-create2/issues"
+  },
+  "homepage": "https://github.com/emilbayes/eth-create2#readme"
+}
