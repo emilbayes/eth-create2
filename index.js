@@ -26,7 +26,7 @@ module.exports = function create2 (address, salt, initCode) {
 
   const codeHash = keccak().update(initCode).digest()
 
-  return utils.format(keccak()
+  return utils.format.address(keccak()
     .update(prefix)
     .update(address)
     .update(salt)

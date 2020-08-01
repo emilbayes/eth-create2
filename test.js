@@ -51,5 +51,13 @@ test('vectors', function (assert) {
   )
   assert.equal(example6, '0xE33C0C7F7df4809055C3ebA6c09CFe4BaF1BD9e0'.toLowerCase())
 
+  const prefix0 = create2(
+    '0x0000000000000000000000000000000000000000',
+    '0x0000000000000000000000000000000000000000000000000000000000000000',
+    '0x10'
+  )
+
+  assert.equal(prefix0, '0x009e70d175875dc30988ee96ea16d3eadbd36df8')
+
   assert.end()
 })
