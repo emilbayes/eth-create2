@@ -1,6 +1,6 @@
 {
   "name": "eth-create2",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generate Ethereum CREATE2 addresses",
   "main": "index.js",
   "publishConfig": {
